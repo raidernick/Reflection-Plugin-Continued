@@ -1,7 +1,7 @@
 {
     "NAME":"Reflection Plugin Continued",
-    "URL":"https://raw.githubusercontent.com/Starwaster/Reflection-Plugin-Continued/master/ReflectionPlugin.version",
-    "DOWNLOAD":"https://github.com/Starwaster/Reflection-Plugin-Continued/releases",
+    "URL":"https://raw.githubusercontent.com/raidernick/Reflection-Plugin-Continued/master/GameData/Hubs/ReflectionPlugin.version",
+    "DOWNLOAD":"https://github.com/raidernick/Reflection-Plugin-Continued/releases",
     "GITHUB":
     {
         "USERNAME":"Starwaster",
@@ -11,26 +11,26 @@
     "VERSION":
     {
         "MAJOR":2,
-        "MINOR":0,
+        "MINOR":1,
         "PATCH":0,
         "BUILD":0
     },
     "KSP_VERSION":
     {
         "MAJOR":1,
-        "MINOR":0,
-        "PATCH":5
+        "MINOR":2,
+        "PATCH":2
     },
     "KSP_VERSION_MIN":
     {
         "MAJOR":1,
-        "MINOR":0,
-        "PATCH":0
+        "MINOR":2,
+        "PATCH":2
     },
     "KSP_VERSION_MAX":
     {
         "MAJOR":1,
-        "MINOR":0,
-        "PATCH":5
+        "MINOR":2,
+        "PATCH":2
     }
 }

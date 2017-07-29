@@ -143,7 +143,7 @@ namespace ReflectionPlugin
             {
                 Debug.Log((object)"RP: Applying changes to meshes ..");
                 List<string> meshNamesList = Enumerable.ToList<string>((IEnumerable<string>)MeshesToChange.Split(new char[1] { ',' }));
-                MeshFilter[] modelComponents = part.FindModelComponents<MeshFilter>();
+                MeshFilter[] modelComponents = part.FindModelComponents<MeshFilter>().ToArray();
                 if (MeshesToChange == "all")
                 {
                     foreach (MeshFilter meshFilter in modelComponents)
