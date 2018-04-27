@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering;
 
 namespace ReflectionPlugin
 {
@@ -157,7 +158,7 @@ Layer 30: SurfaceFX
 			{
 				ReflectiveScript reflectiveScript = this;
 				RenderTexture renderTexture1 = new RenderTexture(CubemapSize, CubemapSize, 16);
-				renderTexture1.isCubemap = true;
+				renderTexture1.dimension = TextureDimension.Cube;
 				renderTexture1.isPowerOfTwo = true;
 				//renderTexture1.hideFlags = HideFlags.HideAndDontSave;
 				renderTexture1.useMipMap = true;
